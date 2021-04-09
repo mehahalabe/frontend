@@ -6,6 +6,7 @@ import Alert from "./Alert";
 import PositiveAlert from "./PositiveAlert";
 import { Button } from 'react';
 import auth from "../auth";
+import { config } from './Constants'
 
 var divStyle = {
     color:'white'
@@ -43,7 +44,7 @@ class Dashboard extends React.Component {
                 
                  }
              });};
-
+            
     //potential method to display data from datbase
      displayProject = (arr) =>{
         return arr.map((na, index) => (

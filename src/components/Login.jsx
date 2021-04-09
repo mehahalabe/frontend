@@ -5,6 +5,7 @@ import axios from "axios";
 import Alert from "./Alert";
 import PositiveAlert from "./PositiveAlert";
 import auth from "../auth";
+import { config } from './Constants'
 
 class Login extends Component {
     // state of the Login component

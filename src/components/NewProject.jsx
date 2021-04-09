@@ -1,3 +1,4 @@
+  
 // NewProject.jsx
 import React, { Component } from "react";
 // axios is used to communicate with the flask server from react
@@ -5,7 +6,7 @@ import axios from "axios";
 import Alert from "./Alert";
 import PositiveAlert from "./PositiveAlert";
 import auth from "../auth";
-
+import { config } from './Constants'
 
 class NewProject extends Component {
     // state of the NewProject component

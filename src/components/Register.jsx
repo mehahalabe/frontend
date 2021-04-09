@@ -5,6 +5,7 @@ import axios from "axios";
 import Alert from "./Alert";
 import "./style.css";
 import PositiveAlert from "./PositiveAlert";
+import { config } from './Constants'
 
 class Register extends Component {
     // state of the Register component
