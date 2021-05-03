@@ -1,4 +1,3 @@
-  
 // NewProject.jsx
 import React, { Component } from "react";
 // axios is used to communicate with the flask server from react
@@ -18,7 +17,7 @@ class NewProject extends Component {
     newproject = (e) => {
        e.preventDefault();
         axios
-            .post("https://backendteam12.herokuapp.com/api/newproject", {
+            .post(config.url.API_URL.concat("/api/newproject"), {
                 // get the form data on submission and post to the server
                 projName: document.getElementById("projName").value,
                 description: document.getElementById("description").value,

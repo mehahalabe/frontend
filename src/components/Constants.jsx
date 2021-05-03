@@ -1,7 +1,6 @@
-  
 const prod = {
     url: {
-        API_URL: '"https://backendteam12.herokuapp.com',
+        API_URL: 'https://hardwareresources12.herokuapp.com',
     }
 };
 
